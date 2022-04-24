@@ -1,21 +1,13 @@
 from aiogram.types import KeyboardButton,ReplyKeyboardMarkup
 
-Maktab_darsliklari_1_sinf=ReplyKeyboardMarkup(
+Maktab_darsliklari_6sinf=ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text='Matematika 📚'),
-            KeyboardButton(text='Informatika 📚'),
+            KeyboardButton(text='Informatika 📚 6-sinf'),
         ],
         [
-            KeyboardButton(text='Ona tili 📚'),
-            KeyboardButton(text='Biologya 📚')
-        ],
-        [
-            KeyboardButton(text='Ingiliz tili 📚'),
-            KeyboardButton(text='Fransuz tili 📚')
-        ],
-        [
-            KeyboardButton(text="Nemis tili 📚")
+            KeyboardButton(text="Asosiy Menu 🔝"),
+            KeyboardButton(text='Orqaga 🔙')
         ]
     ],
     resize_keyboard=True

@@ -4,6 +4,12 @@ from keyboards.default.sinf2.Darsliklar import Maktab_darsliklari_2sinf
 from keyboards.default.sinf3.Darsliklar import Maktab_darsliklari_3sinf
 from keyboards.default.sinf4.Darsliklar import Maktab_darsliklari_4sinf
 from keyboards.default.sinf5.Darsliklar import Maktab_darsliklari_5sinf
+from keyboards.default.sinf6.Darsliklar import Maktab_darsliklari_6sinf
+from keyboards.default.sinf7.Darsliklar import Maktab_darsliklari_7sinf
+from keyboards.default.sinf8.Darsliklar import Maktab_darsliklari_8sinf
+from keyboards.default.sinf9.Darsliklar import Maktab_darsliklari_9sinf
+from keyboards.default.sinf10.Darsliklar import Maktab_darsliklari_10sinf
+from keyboards.default.sinf11.Darsliklar import Maktab_darsliklari_11sinf
 from keyboards.default.sinflar import Maktab_darsliklari_menu
 from loader import dp
 
@@ -224,5 +230,62 @@ async def bot_echo(message: types.Message):
 
 
 "6-sinf_____________________________________________________________________________________"
+@dp.message_handler(text="6-sinf 📚 darsliklari")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_6sinf)
 
+@dp.message_handler(text="Informatika 📚 6-sinf")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Informatika 📙 6-sinf')
+    await message.answer(text="https://t.me/maktabdarslik2022/52")
+"___________________________________________________________________________________________"
+
+
+
+
+"7-sinf_____________________________________________________________________________________"
+@dp.message_handler(text="7-sinf 📚 darsliklari")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_7sinf)
+
+@dp.message_handler(text="Informatika 📚 7-sinf")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Informatika 📙 7-sinf')
+    await message.answer(text="https://t.me/maktabdarslik2022/52")
+"___________________________________________________________________________________________"
+
+
+
+
+"8-sinf____________________________________________________________________________________"
+@dp.message_handler(text="8-sinf 📚 darsliklari")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_8sinf)
+"__________________________________________________________________________________________"
+
+
+
+
+"9-sinf____________________________________________________________________________________"
+@dp.message_handler(text="9-sinf 📚 darsliklari")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_9sinf)
+"__________________________________________________________________________________________"
+
+
+
+
+"10-sinf___________________________________________________________________________________"
+@dp.message_handler(text="10-sinf 📚 darsliklari")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_10sinf)
+"__________________________________________________________________________________________"
+
+
+
+
+"11-sinf____________________________________________________________________________________"
+@dp.message_handler(text="11-sinf 📚 darsliklari")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_11sinf)
 "___________________________________________________________________________________________"
