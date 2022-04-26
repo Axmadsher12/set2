@@ -234,7 +234,7 @@ async def bot_echo(message: types.Message):
 async def bot_echo(message: types.Message):
     await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_6sinf)
 
-@dp.message_handler(text="Informatika 📚 6-sinf")
+@dp.message_handler(text="Informatika 📙 6-sinf")
 async def bot_echo(message: types.Message):
     await message.answer(text='Informatika 📙 6-sinf')
     await message.answer(text="https://t.me/maktabdarslik2022/52")
@@ -248,10 +248,10 @@ async def bot_echo(message: types.Message):
 async def bot_echo(message: types.Message):
     await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_7sinf)
 
-@dp.message_handler(text="Informatika 📚 7-sinf")
+@dp.message_handler(text="Informatika 📙 7-sinf")
 async def bot_echo(message: types.Message):
     await message.answer(text='Informatika 📙 7-sinf')
-    await message.answer(text="https://t.me/maktabdarslik2022/52")
+    await message.answer(text="https://t.me/maktabdarslik2022/54")
 "___________________________________________________________________________________________"
 
 
@@ -261,6 +261,16 @@ async def bot_echo(message: types.Message):
 @dp.message_handler(text="8-sinf 📚 darsliklari")
 async def bot_echo(message: types.Message):
     await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_8sinf)
+
+@dp.message_handler(text="Informatika 📙 8-sinf")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Informatika 📙 8-sinf')
+    await message.answer(text="https://t.me/maktabdarslik2022/62")
+
+@dp.message_handler(text="Tarbiya 📙 8-sinf")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Tarbiya 📙 8-sinf')
+    await message.answer(text="https://t.me/maktabdarslik2022/56")
 "__________________________________________________________________________________________"
 
 
@@ -270,6 +280,11 @@ async def bot_echo(message: types.Message):
 @dp.message_handler(text="9-sinf 📚 darsliklari")
 async def bot_echo(message: types.Message):
     await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_9sinf)
+
+@dp.message_handler(text="Informatika 📙 9-sinf")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Informatika 📙 9-sinf')
+    await message.answer(text="https://t.me/maktabdarslik2022/63")
 "__________________________________________________________________________________________"
 
 
@@ -279,6 +294,16 @@ async def bot_echo(message: types.Message):
 @dp.message_handler(text="10-sinf 📚 darsliklari")
 async def bot_echo(message: types.Message):
     await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_10sinf)
+
+@dp.message_handler(text="Informatika 📙 10-sinf")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Informatika 📙 10-sinf')
+    await message.answer(text="https://t.me/maktabdarslik2022/65")
+
+@dp.message_handler(text="Ona tili 📙 10-sinf")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Ona tili 📙 10-sinf')
+    await message.answer(text="https://t.me/maktabdarslik2022/64")
 "__________________________________________________________________________________________"
 
 
@@ -288,4 +313,9 @@ async def bot_echo(message: types.Message):
 @dp.message_handler(text="11-sinf 📚 darsliklari")
 async def bot_echo(message: types.Message):
     await message.answer(text='Darslikni tanlang:',reply_markup=Maktab_darsliklari_11sinf)
+
+@dp.message_handler(text="Ona tili 📙 11-sinf")
+async def bot_echo(message: types.Message):
+    await message.answer(text='Ona tili 📙 11-sinf')
+    await message.answer(text="https://t.me/maktabdarslik2022/66")
 "___________________________________________________________________________________________"

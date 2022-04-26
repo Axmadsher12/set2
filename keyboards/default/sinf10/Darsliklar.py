@@ -3,11 +3,8 @@ from aiogram.types import KeyboardButton,ReplyKeyboardMarkup
 Maktab_darsliklari_10sinf=ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text='Informatika 📚 10-sinf'),
-            KeyboardButton(text="Ona tili 📚 10-sinf")
-        ],
-        [
-            KeyboardButton(text="O'zbek tili / Rus tili 📚 10-sinf")
+            KeyboardButton(text='Informatika 📙 10-sinf'),
+            KeyboardButton(text="Ona tili 📙 10-sinf")
         ],
         [
             KeyboardButton(text="Asosiy Menu 🔝"),
